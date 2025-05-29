@@ -1,5 +1,6 @@
 import type {Metadata} from 'next'
 import './globals.css'
+import Script from "next/script";
 
 
 export const metadata: Metadata = {
@@ -36,6 +37,7 @@ export default function RootLayout({
             </div>
         </footer>
         </body>
+        <Script defer src="https://analytics.vedantbhavsar.com/script.js" data-website-id="8c39ce0a-98a0-4fc4-976c-b60fb5d5f726"></Script>
         </html>
     )
 }
